@@ -1,0 +1,48 @@
+.main-container{
+    background-color: #000000;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 0.6rem;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.main-container h2{
+    color: white;
+    font-weight: bold;
+}
+
+.input-controls input{
+    width: 40%;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    border: none;
+
+}
+.btn{
+    height: 28px;
+    width: 60px;
+    background-color: rgb(87, 152, 232);
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.form-controls{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.form-control{
+    padding: 12px;
+}
+label {
+    font-size: large;
+}
